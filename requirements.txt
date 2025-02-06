@@ -1,0 +1,14 @@
+SpeechRecognition
+pyttsx3
+python_dotenv
+streamlit
+InstructorEmbedding
+sentence-transformers
+PyAudio
+pypdf
+faiss-cpu
+langchain
+langchain_groq
+langchain_huggingface
+langchain_community
+langchain_core
