@@ -33,20 +33,20 @@ git clone https://github.com/your-username/VOX-AI-Voice-Assistant.git
 cd VOX-AI-Voice-Assistant
 ```
 
-2️⃣ Create a Virtual Environment (Optional but Recommended)
+2️⃣ **Create a Virtual Environment (Optional but Recommended)**
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-3️⃣ Install Dependencies
+3️⃣ **Install Dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4️⃣ Set Up API Keys
+4️⃣ **Set Up API Keys**
 
 Create a .env file in the root directory and add the following environment variables:
 
@@ -55,7 +55,7 @@ GROQ_API_KEY=your_groq_api_key
 HF_TOKEN=your_huggingface_token
 ```
 
-5️⃣ Run the Application
+5️⃣ **Run the Application**
 
 ```bash
 streamlit run app.py
